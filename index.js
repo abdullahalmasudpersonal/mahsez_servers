@@ -43,7 +43,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send(('hello from Mahsez_server'));
+    res.send(('hello from Mahsez_servers'));
 });
 
 app.listen(port, () => {
